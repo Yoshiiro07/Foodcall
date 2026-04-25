@@ -107,6 +107,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Foodcall.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Foodcall.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Foodcall.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodcall.Application.dll": {}
+        }
+      },
+      "Foodcall.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Foodcall.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodcall.Domain.dll": {}
+        }
+      },
+      "Foodcall.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Foodcall.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Foodcall.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodcall.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -473,17 +509,32 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Foodcall.Application/1.0.0": {
+      "type": "project",
+      "path": "../Foodcall.Application/Foodcall.Application.csproj",
+      "msbuildProject": "../Foodcall.Application/Foodcall.Application.csproj"
+    },
+    "Foodcall.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Foodcall.Domain/Foodcall.Domain.csproj",
+      "msbuildProject": "../Foodcall.Domain/Foodcall.Domain.csproj"
+    },
+    "Foodcall.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Foodcall.Infrastructure/Foodcall.Infrastructure.csproj",
+      "msbuildProject": "../Foodcall.Infrastructure/Foodcall.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Foodcall.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.25",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gui\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Gui\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -494,26 +545,23 @@
       "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
       "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\Foodcall.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projetos\\NET\\Foodcall\\src\\Foodcall.Infrastructure\\Foodcall.Infrastructure.csproj": {
+              "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Foodcall.Infrastructure\\Foodcall.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -525,8 +573,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "10.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -560,7 +607,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

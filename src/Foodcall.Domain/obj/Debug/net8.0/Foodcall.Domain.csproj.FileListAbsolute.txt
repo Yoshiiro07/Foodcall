@@ -1,0 +1,12 @@
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\bin\Debug\net8.0\Foodcall.Domain.deps.json
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\bin\Debug\net8.0\Foodcall.Domain.dll
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\bin\Debug\net8.0\Foodcall.Domain.pdb
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.AssemblyInfoInputs.cache
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.AssemblyInfo.cs
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.sourcelink.json
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.dll
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\refint\Foodcall.Domain.dll
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\Foodcall.Domain.pdb
+D:\Projetos\NET\Foodcall\src\Foodcall.Domain\obj\Debug\net8.0\ref\Foodcall.Domain.dll

@@ -1,0 +1,12 @@
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\bin\Debug\net8.0\Foodcall.Infrastructure.deps.json
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\bin\Debug\net8.0\Foodcall.Infrastructure.dll
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\bin\Debug\net8.0\Foodcall.Infrastructure.pdb
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.AssemblyInfoInputs.cache
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.AssemblyInfo.cs
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.sourcelink.json
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.dll
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\refint\Foodcall.Infrastructure.dll
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\Foodcall.Infrastructure.pdb
+D:\Projetos\NET\Foodcall\src\Foodcall.Infrastructure\obj\Debug\net8.0\ref\Foodcall.Infrastructure.dll
